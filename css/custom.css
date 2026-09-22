@@ -685,6 +685,56 @@ ul.pic-list{ display: grid; grid-template-columns: repeat(3,1fr); gap: 5px; padd
 .qc_fb { background: #1877F2; }
 @media screen and (max-width:600px) { .qc_btn { flex: 1 1 100%; } }
 
+/* = = = 2026 modernization pass: rounded cards, depth, smoother motion = = = */
+:root {
+	--radius-sm: 8px;
+	--radius-md: 14px;
+	--radius-pill: 999px;
+	--shadow-card: 0 4px 16px rgba(0,0,0,.10);
+	--shadow-lift: 0 16px 32px rgba(0,0,0,.20);
+	--ease: cubic-bezier(.4,0,.2,1);
+}
+
+/* Sticky header: lift it off the page with a soft shadow */
+.main_header_area { box-shadow: 0 2px 20px rgba(0,0,0,.08); }
+
+/* Repair-case / product cards */
+.products-list { gap: 22px; }
+.products-list .item a {
+	display: block; border-radius: var(--radius-md); overflow: hidden;
+	background: #fff; box-shadow: var(--shadow-card);
+	transition: transform .35s var(--ease), box-shadow .35s var(--ease);
+}
+.products-list .item a:hover { transform: translateY(-6px); box-shadow: var(--shadow-lift); }
+.products-list .item .pic { border-radius: 0; margin: 0; }
+.products-list .item .pic img { transition: transform .5s var(--ease); }
+.products-list .item a:hover .pic img { transform: scale(1.06); }
+.products-list .name { padding: 4px 14px 0; }
+.products-list .more {
+	border-radius: var(--radius-pill); margin: 10px 14px 14px; display: inline-block;
+	padding: 8px 20px; transition: background .3s var(--ease), color .3s var(--ease);
+}
+
+/* Photo-album grids */
+.show-list .show_pic, .other_subalbum li a div, .pic-list .show_pic { border-radius: var(--radius-sm); }
+.pic-list .item, .other_subalbum li { transition: transform .35s var(--ease); }
+.pic-list .item:hover { transform: translateY(-4px); }
+
+/* Sidebar category nav -> soft card list */
+.product-layer-two { background: #fff; border-radius: var(--radius-md); box-shadow: var(--shadow-card); padding: 18px 0; }
+.product-layer-two > li.active { border-radius: var(--radius-sm); }
+
+/* Buttons in general: smoother, rounder */
+input[type="submit"], input[type="reset"], .fb_more_btn { border-radius: var(--radius-pill) !important; transition: transform .25s var(--ease), background .25s var(--ease) !important; }
+input[type="submit"]:hover, input[type="reset"]:hover { transform: translateY(-2px); }
+
+/* Contact-page map + info panel depth */
+.contact_le_nomap iframe { border-radius: var(--radius-md); }
+.contact_content { border-radius: var(--radius-md); box-shadow: var(--shadow-card); border: none !important; }
+
+/* Generic link/image hover smoothing site-wide */
+a { transition: color .25s var(--ease); }
+
 /* = = = RWD = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 @media screen and (max-width: 1200px) { }
 @media screen and (max-width: 1024px) { }
