@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 行銷 -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3MRJKSER0G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3MRJKSER0G');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10993814035">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10993814035');
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '322915523875592'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=322915523875592&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+<link rel="stylesheet" type="text/css" href="../fonts/css/all.css" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10993814035"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10993814035');
+</script>
+
+<!-- Event snippet for LINE點擊 conversion page -->
+<script>
+ window.addEventListener('load', function(event){
+  document.querySelectorAll('[href*="line.me"]').forEach(function(e){
+  e.addEventListener('click', function()
+  {
+   gtag('event', 'conversion', {'send_to': 'AW-10993814035/K3YhCMrc5Y4aEJOUofoo'});  
+    });
+  });
+  });
+</script>
+
+<!-- Event snippet for 電話點擊 conversion page -->
+<script>
+ window.addEventListener('load', function(event){
+  document.querySelectorAll('[href*="tel:"]').forEach(function(e){
+  e.addEventListener('click', function()
+  {
+   gtag('event', 'conversion', {'send_to': 'AW-10993814035/89IvCM3c5Y4aEJOUofoo'});  
+    });
+  });
+  });
+</script>
+
+<!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="Content-Language" content="zh-Tw">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<meta property="og:locale" content="zh_TW" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="硬派汽車凹痕修復-汽車凹痕修復,大里汽車凹痕修復,台中汽車凹痕修復推薦" />
+	<meta property="og:title" content="硬派汽車凹痕修復-汽車凹痕修復,大里汽車凹痕修復,台中汽車凹痕修復推薦" />
+	<meta property="og:description" content="硬派致力於為您提供卓越的汽車凹痕修復服務，我們自豪地運用PDR（Paintless Dent Repair）工法，這種高度專業的修復技術能夠完美修復您愛車上的凹痕，同時保持原有車漆的完整性。" />
+	<meta property="og:url" content="www.hardcore-pdr.com" />
+	<meta property="og:image" content="" /> 
+
+
+	<title>硬派汽車凹痕修復-汽車凹痕修復,大里汽車凹痕修復,台中汽車凹痕修復推薦</title>
+	<meta name="keywords" content="汽車凹痕修復,台中汽車凹痕修復,大里汽車凹痕修復,南區汽車凹痕修復,汽車凹痕修復推薦,台中汽車凹痕修復推薦,大里汽車凹痕修復推薦,南區汽車凹痕修復推薦,汽車凹痕處理,台中汽車凹痕處理,大里汽車凹痕處理,南區汽車凹痕處理,汽車凹痕處理推薦,台中汽車凹痕處理推薦,大里汽車凹痕處理推薦,南區汽車凹痕處理推薦,凹痕處理,台中凹痕處理,大里凹痕處理,南區凹痕處理,汽車刮痕處理,台中汽車刮痕處理,大里汽車刮痕處理,汽車刮傷處理,台中汽車刮傷處理,大里汽車刮傷處理,汽車烤漆處理,台中汽車烤漆處理,大里汽車烤漆處理,汽車凹陷修復,台中汽車凹陷修復,大里汽車凹陷修復,汽車凹痕美容,台中汽車凹痕美容,大里汽車凹痕美容,板金修復,台中板金修復,大里板金修復,鈑金修復,台中鈑金修復,大里鈑金修復,板金凹痕處理,台中板金凹痕處理,大里板金凹痕處理,鈑金凹痕處理,台中鈑金凹痕處理,大里鈑金凹痕處理,板金凹痕修復,台中板金凹痕修復,大里板金凹痕修復,汽車撞凹處理,台中汽車撞凹處理,大里汽車撞凹處理,汽車板金維修,台中汽車板金維修,大里汽車板金維修,汽車鈑金維修,台中汽車鈑金維修,大里汽車鈑金維修,汽車無痕修復,台中汽車無痕修復,大里汽車無痕修復,汽車凹痕處理廠商,台中汽車凹痕處理廠商,大里汽車凹痕處理廠商,鋁合金凹痕,台中鋁合金凹痕,大里鋁合金凹痕,鋁合金凹痕處理,台中鋁合金凹痕處理,大里鋁合金凹痕處理,鋁合金凹痕處理推薦,台中鋁合金凹痕處理推薦,大里鋁合金凹痕處理推薦,車體凹痕復原,台中車體凹痕復原,大里車體凹痕復原,車體凹痕還原,台中車體凹痕還原,大里車體凹痕還原,車體凹痕修復,台中車體凹痕修復,大里車體凹痕修復,快速凹痕修復,台中快速凹痕修復,大里快速凹痕修復,快速板金修復,台中快速板金修復,大里快速板金修復,修板金,台中修板金,大里修板金,修板金推薦,台中修板金推薦,大里修板金推薦,免烤漆凹痕修復,台中免烤漆凹痕修復,大里免烤漆凹痕修復,引擎蓋凹痕,台中引擎蓋凹痕,大里引擎蓋凹痕,車頂凹痕,台中車頂凹痕,大里車頂凹痕,車門凹痕,台中車門凹痕,大里車門凹痕,側門凹痕維修,台中側門凹痕維修,大里側門凹痕維修,車柱凹陷維修,台中車柱凹陷維修,大里車柱凹陷維修,修理汽車板金凹痕,台中修理汽車板金凹痕,大里修理汽車板金凹痕,消除車殼凹痕,台中消除車殼凹痕,大里消除車殼凹痕," />
+	<meta name="description" content="硬派致力於為您提供卓越的汽車凹痕修復服務，我們自豪地運用PDR（Paintless Dent Repair）工法，這種高度專業的修復技術能夠完美修復您愛車上的凹痕，同時保持原有車漆的完整性。" />
+	<link rel="shortcut icon" href="favicon.ico">
+
+<!-- -->
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.mmenu.all.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+<link rel="stylesheet" type="text/css" href="css/menu.css" />
+<link rel="stylesheet" type="text/css" href="css/menu_v3_2023.css" />
+<link rel="stylesheet" type="text/css" href="css/swiper.min.css" /><!-- update by shiny at 1080710 -->
+<link rel="stylesheet" type="text/css" href="css/main.css"><!-- update by shiny at 1080710 -->
+<link rel="stylesheet" type="text/css" href="css/custom.css" />
+
+</head>
+
+<body class="pageIndex">
+
+<div id="page">
+
+
+
+<header class="header_area">
+  <div class="main_header_area animated">
+    <div class="container">
+      <nav id="navigation1" class="navigation">
+        
+        <div class="nav-header">
+          <a class="nav-brand" href="https://www.hardcore-pdr.com"><img src="https://www.gogo-engineering.com/store_image/hardcorepdr/L169925279171.png" alt="硬派汽車凹痕修復-汽車凹痕修復,大里汽車凹痕修復,台中汽車凹痕修復推薦"/><h1>硬派汽車凹痕修復-汽車凹痕修復,大里汽車凹痕修復,台中汽車凹痕修復推薦</h1></a>
+        </div>
+               
+        <div class="me_tp_features">
+			        	<div class="tp_links">
+						<a target="_blank" class="me_tp_line" href="https://line.me/ti/p/@545yosfc"><i class="fa-brands fa-line"></i></a>			<a target="_blank" class="me_tp_call" href="tel:0939-530-012"><i class="fa-brands fa-whatsapp"></i></a>			<a target="_blank" class="me_tp_mail" href="mailto:easonyang0930@gmail.com"><i class="far fa-envelope"></i></a>                    	</div><!--tp_links-->
+            
+            <div class="tp_lang">
+			                                            	</div><!--tp_links-->
+            
+		</div><!--me_tp_features-->
+        
+        
+        
+
+			<div class="stellarnav">
+				<ul>
+										<li>
+                    	<a href="https://www.hardcore-pdr.com" target="_self">
+															關於硬派							                    	</a>
+                    
+										</li>
+										<li>
+                    	<a href="https://www.hardcore-pdr.com/paper/services_index.php?title_id=8419" target="_self">
+															服務內容							                    	</a>
+                    
+										</li>
+										<li>
+                    	<a href="https://www.hardcore-pdr.com/products/index.php?title_id=8420" target="_self">
+															修復案例							                    	</a>
+                    
+					                    	<ul>
+                    	                            <li><a href="https://www.hardcore-pdr.com/products/index.php?group_id=4837&title_id=8420#prod_cbox">引擎蓋</a>
+                                                          </li>
+                                                     <li><a href="https://www.hardcore-pdr.com/products/index.php?group_id=4856&title_id=8420#prod_cbox">ＡＢＣ柱</a>
+                                                          </li>
+                                                     <li><a href="https://www.hardcore-pdr.com/products/index.php?group_id=4857&title_id=8420#prod_cbox">車頂</a>
+                                                          </li>
+                                                     <li><a href="https://www.hardcore-pdr.com/products/index.php?group_id=4858&title_id=8420#prod_cbox">前後車門</a>
+                                                          </li>
+                                                     <li><a href="https://www.hardcore-pdr.com/products/index.php?group_id=4860&title_id=8420#prod_cbox">前葉子板</a>
+                                                          </li>
+                                                     <li><a href="https://www.hardcore-pdr.com/products/index.php?group_id=4861&title_id=8420#prod_cbox">後葉子板</a>
+                                                          </li>
+                                                     <li><a href="https://www.hardcore-pdr.com/products/index.php?group_id=4933&title_id=8420#prod_cbox">後行李箱蓋</a>
+                                                          </li>
+                                                  						</ul>
+                        
+                    					</li>
+										<li>
+                    	<a href="https://www.hardcore-pdr.com/album/index.php?title_id=8421" target="_self">
+															修復部位							                    	</a>
+                    
+					 
+                    	
+												<ul class="nav-dropdown">
+														<li><a href="https://www.hardcore-pdr.com/album/class.php?id=15423&title_id=8421#prod_cbox">油箱蓋</a></li>
+														<li><a href="https://www.hardcore-pdr.com/album/class.php?id=15425&title_id=8421#prod_cbox">車頂</a></li>
+														<li><a href="https://www.hardcore-pdr.com/album/class.php?id=15347&title_id=8421#prod_cbox">引擎蓋</a></li>
+														<li><a href="https://www.hardcore-pdr.com/album/class.php?id=14860&title_id=8421#prod_cbox">車門</a></li>
+														<li><a href="https://www.hardcore-pdr.com/album/class.php?id=15400&title_id=8421#prod_cbox">前葉子板</a></li>
+														<li><a href="https://www.hardcore-pdr.com/album/class.php?id=15418&title_id=8421#prod_cbox">ABC柱</a></li>
+														<li><a href="https://www.hardcore-pdr.com/album/class.php?id=14942&title_id=8421#prod_cbox">後行李箱蓋</a></li>
+														<li><a href="https://www.hardcore-pdr.com/album/class.php?id=15401&title_id=8421#prod_cbox">後葉子板</a></li>
+													</ul>
+                                              
+										</li>
+										<li>
+                    	<a href="https://www.hardcore-pdr.com/news/index.php?title_id=8422" target="_self">
+															最新消息							                    	</a>
+                    
+					                    	
+                        <ul>
+                    									<li><a href="https://www.hardcore-pdr.com/news/index.php?group_id=2746&title_id=8422#prod_cbox">資訊分享</a>
+                            								</li>
+                        								<li><a href="https://www.hardcore-pdr.com/news/index.php?group_id=2788&title_id=8422#prod_cbox">車種介紹</a>
+                            								</li>
+                        	                    	</ul>
+										</li>
+										<li>
+                    	<a href="https://www.hardcore-pdr.com/paper/contact_index.php?title_id=8423" target="_self">
+															聯絡我們							                    	</a>
+                    
+										</li>
+					          
+
+				</ul>
+			</div><!-- .stellarnav -->
+                    
+      </nav><!--navigation-->
+    </div>
+  </div>
+</header>
+<div class="bannerindex">
+	<div class="swiper-banner">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide centerBig"><img src="https://www.gogo-engineering.com/store_image/hardcorepdr/A1169831118896.jpg" /></div>        <div class="swiper-slide"><img src="https://www.gogo-engineering.com/store_image/hardcorepdr/B2169837662177.jpg" /></div>                              </div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+
+<script type="text/javascript" src="js/swiper.min2.js"></script><!-- update by shiny at 1080710 -->
+<script type="text/javascript">
+// update by shiny at 1080710
+trList=['leftUp','moveRight','moveDown','centerBig','rightDownBig'];
+var swiper = new Swiper('.swiper-banner',{
+	speed:1000,
+	autoplay:4400,
+	autoplayDisableOnInteraction:false,
+	effect:'fade',
+	pagination : '.swiper-pagination',
+	paginationClickable :true,
+	onSlideChangeStart: function(swiper){
+		nextSlide=swiper.slides.eq(swiper.activeIndex);
+		nextSlide.addClass(trList[Math.floor(Math.random()*5)]);
+		},
+	onSlideChangeEnd: function(swiper){
+		prevSlide=swiper.slides[swiper.previousIndex];
+		prevSlide.className="swiper-slide";
+			       },
+	});
+</script>
+
+<div class="mobile_wp">
+	</div>
+
+
+<div id="content_main">
+
+			
+	
+	    
+		
+    	
+	
+		    		
+	
+	    
+		
+	<div class="edit_part">
+		<div class="show_content fadeInUp animated15">
+			<!-- 以下為編輯器(不含div) -->
+			<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://pic03.eapple.com.tw/yk_js_web/jquery-1.11.3.min.js"></script> -->
+<script src="https://pic03.eapple.com.tw/yk_js_web/scrollfade.js"></script><!--滑動淡入淡出JS-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+<style type="text/css">
+	.keyword{
+    height: 0;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.pageIndex{max-width:100%; padding:0;}
+.main_part{max-width:2000px; padding:0; margin:0 auto;}
+.edit, .edit_part, .show_content, .main_part{width:100%; max-width: 100%; padding:0;}
+
+.box_container {width:100%; max-width:2000px; font-family:"微軟正黑體",Microsoft JhengHei; font-size:var(--font18); letter-spacing: 2px; color:#666666; border:0; text-decoration:none; overflow:hidden; margin: auto;}
+.box_container img{width:auto; max-width:100%;}
+.box_container * {box-sizing: border-box; max-width:100%;  padding:0; margin:0; line-height:150%;}
+.box_container a{text-decoration:none;}
+.box_container ul{list-style:none;}
+.box_container i, .box_container em, .box_container dfn, .box_container var{font-style: normal;line-height: 0px;}
+.box_container u{text-decoration:none;}
+
+/*Animations*/
+[data-animate-in] { opacity: 0; transition: transform 0.8s ease, opacity 0.8s ease;}
+[data-animate-in="up"] { transform: translate3d(0, 20%, 0);}/*由下往上*/
+[data-animate-in="left"] { transform: translate3d(-30%, 0, 0);}/*由左往右*/
+[data-animate-in="right"] { transform: translate3d(30%, 0, 0);}/*由右往左*/
+[data-animate-in="down"] { transform: translate3d(0, -20%, 0);}/*由上往下*/
+[data-animate-in="fadeIn"] { transform: translate3d(0, 0, 0);}/*淡入*/
+[data-animate-in="scaleIn"] {transform: scale(.3);}/*放大淡入*/
+[data-animate-in].in-view { opacity: 1; transform:translate3d(0,0,0); -webkit-transform:translate3d(0,0,0); transition: transform 1.2s ease, opacity 1s ease;}
+.fade-in { opacity: 0; transition: opacity 1s ease; }
+
+@keyframes play{
+	0%{background-position: 0 0;}
+	100%{background-position: 0 303px;}
+}
+@keyframes updown{
+	50%{ transform:translate(-50%,20px);}
+	0%,
+	100%{ transform:translate(-50%,0);}
+}
+
+	.content_flex{
+        display: flex;
+		justify-content: space-between;
+        align-items: center;
+    }
+	.box_container{
+		--font20: 20px;
+		--font18: 18px;
+		--font16: 16px;
+	}
+	.box_container h5{
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-end;
+		font-size: var(--font18);
+	}
+	.box_container h5 img{
+		display: block;
+	}
+	.box_container h5 b{
+		display: block;
+		padding: 3px 25px 3px 10px;
+		color: #222225;
+		word-break: keep-all;
+		position: relative;
+	}
+	.box_container h5 b:before{
+		content: '';
+		border-bottom: 1px solid #888888;
+		width: calc(100% + 10px);
+		position: absolute;
+		left: -10px;
+		bottom: 0;
+	}
+	.box_container h5 b:after{
+		content: '';
+		background: #888888;
+		width: 17px;
+		height: 3px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+	.abg01{
+		background: url(https://pic03.eapple.com.tw/hardcorepdr/abg_01.jpg) no-repeat center;
+		background-size: cover;
+		margin-top: 30px;
+	}
+	.abg01_1{
+		width: 97%;
+		max-width: 1784px;
+		margin-left: auto;
+	}
+	.abg01_1 dt{
+		width: 615px;
+		padding: 3% 0;
+		margin-right: 3%;
+	}
+	.abg01_1 dt p{
+		margin: 40px 0 15px;
+	}
+	.abg01_1 dd{
+		line-height: 0;
+		position: relative;
+		top: -30px;
+		margin-bottom: -30px;
+		align-self: stretch;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+	.abg01_2{
+		width: 97%;
+		max-width: 1800px;
+	}
+	.abg01_2 dd{
+		align-self: stretch;
+	}
+	.abg01_2 dd img{
+		object-fit: cover;
+		object-position: right;
+		min-height: 100%;
+	}
+	.abg01_2 dt{
+		width: calc(615px + 5%);
+		padding: 3% 5% 3% 0;
+		margin-left: 3%;
+		position: relative;
+	}
+	.abg01_2 dt h6{
+		font-size: var(--font20);
+		font-style: italic;
+	}
+	.abg01_2 dt h6 b{
+		display: block;
+		width: fit-content;
+		margin: 15px 0 0 auto;
+	}
+	.abg01_2 dt p{
+		margin: 40px 0 15px;
+	}
+	.abg01_2 dt i{
+		background: url(https://pic03.eapple.com.tw/hardcorepdr/abo_04.png) repeat-y center;
+		background-size: cover;
+		position: absolute;
+		right: 0;
+		bottom: -3%;
+		width: 31px;
+		height: 202px;
+		-webkit-animation: play 10s steps(12) infinite alternate;
+		animation: play 10s steps(15000) infinite;
+	}
+	.abg01_3{
+		width: 97%;
+		max-width: 1750px;
+		margin: 90px 0 0 auto;
+	}
+	.abg01_3 dt{
+		width: 654px;
+		padding-bottom: 3%;
+		margin-right: 3%;
+	}
+	.abg01_3 dt h5 b{
+		margin-bottom: 5px;
+	}
+	.abg01_3 dd{
+		max-width: 972px;
+		position: relative;
+		line-height: 0;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		align-self: stretch;
+	}
+	.abg01_3 dd i{
+		width: 59.5%;
+		position: absolute;
+		top: 10%;
+		left: 45%;
+		animation: updown 3s ease-out infinite;
+	}
+	.accordion{
+		border-top: none;
+		margin-top: 40px;
+	}
+	.accordion a{
+		border-bottom: 1px solid #AAAAAA;
+	}
+	.accordion a.click_btn_a {
+		display: block;
+		cursor: pointer;
+	}
+	.accordion a.click_btn_a section{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 15px 5px 15px 33px;
+		color: #000000;
+		transition: 0.4s;
+		font-size: var(--font20);
+		position: relative;
+	}
+	.accordion a.click_btn_a section:before{
+		content: 'Q';
+		font-size: var(--font16);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 21px;
+		height: 21px;
+		background: #000000;
+		color: #fff;
+		border-radius: 100%;
+		font-family: 'Archivo Black', sans-serif;
+		position: absolute;
+		left: 0;
+		top: 18px;
+	}
+	.accordion a:hover.click_btn_a section,
+	.accordion a.active.click_btn_a section{
+		transition: 0.4s;
+	}
+	.accordion a.click_btn_a section:after{
+		content: '+';
+		font-size: 25px;
+		margin-left: 5px;
+	}
+	.accordion a.active.click_btn_a section:after{
+		content: '-';
+		font-size: 30px;
+	}
+	.qa_a{
+		padding: 0 5px 20px 33px;
+		color: #666666;
+		display: none;
+		position: relative;
+	}
+	.qa_a:after{
+		content: 'A';
+		font-size: var(--font16);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 21px;
+		height: 21px;
+		color: #000;
+		border-radius: 100%;
+		border: 1px solid #000;
+		font-family: 'Archivo Black', sans-serif;
+		position: absolute;
+		left: 0;
+		top: 3px;
+	}
+	.qa_a p{
+		margin-bottom: 15px;
+	}
+	.abg02{
+		background: url(https://pic03.eapple.com.tw/hardcorepdr/abg_02.jpg) no-repeat center;
+		background-size: cover;
+		padding: 90px 3%;
+	}
+	.abg02_1{
+		max-width: 1820px;
+		margin: auto;
+	}
+	.abg02_1 dt{
+		width: 614px;
+		margin-right: 3%;
+	}
+	.abg02_1 dt figure{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 15%;
+	}
+	.abg02_1 dt figure:before{
+		content: '';
+		background: #AAAAAA;
+		width: 80%;
+		height: 1px;
+		margin-right: 5px;
+	}
+	.abg02_1 dt figure a{
+		min-width: 49px;
+		height: 50px;
+		border-radius: 100%;
+		background: #000;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 15px;
+	}
+	.abg02_1 dt figure a img{
+		display: block;
+		transition: .4s;
+	}
+	.abg02_1 dt figure a:hover{
+		background: #333;
+	}
+	.abg02_1 dt figure a:hover img{
+		transform: rotateY(360deg);
+	}
+	.abg02_1 dd{
+		display: flex;
+		justify-content: space-between;
+		align-items: stretch;
+	}
+	.abg02_1 dd img{
+		width: calc(100%/2 - 5px);
+		max-width: 558px;
+	}
+
+
+@media screen and (max-width:1000px) {
+	.abg01_1,
+	.abg01_3,
+	.abg02_1{width: 100%; flex-wrap: wrap; justify-content: center;}
+	.abg01_1 dt,
+	.abg01_2 dt{padding: 70px 5%; margin: auto;}
+	.abg01_1 dd{padding-left: 3%;}
+	.abg01_2{width: 100%; flex-wrap: wrap-reverse; justify-content: center;}
+	.abg01_2 dd{padding-right: 3%;}
+	.abg01_3 dt{width: 800px; padding: 0 5% 70px; margin: auto;}
+	.abg01_3 dd{width: 90%;}
+	.abg02_1 dt{padding: 0 0 50px; margin: 0 auto;}
+}
+
+@media screen and (max-width:768px) {
+	.abg01 { margin-top: 0;}
+	.abg01_1 dd{padding-left: 5%;}
+	.abg01_2 dd{padding-right: 5%;}
+	.abg02{padding: 70px 5%;}
+}
+
+@media screen and (max-width:480px) {
+	.box_container{
+		--font20: 18px;
+		--font18: 17px;
+	}
+	.abg01_1 dt,
+	.abg01_2 dt{padding: 50px 5% 60px;}
+	.abg01_2 dt i{width: 5vw; bottom: unset; top: 95%; right: 10px; background-size: contain; height: 100px;}
+	.abg01_3{margin-top: 50px;}
+	.abg01_3 dt{padding: 0 5% 50px;}
+	.abg02{padding: 50px 5%;}
+	.abg02_1 dt figure a{min-width: 45px; height: 45px; padding: 10px;}
+	.abg02_1 dd{flex-wrap: wrap;}
+	.abg02_1 dd img{width: 100%; margin-top: 10px;}
+}
+
+</style>
+
+<div class="box_container">
+	<div class="keyword">
+		<h2>汽車凹痕修復</h2>
+		<h3>台中汽車凹痕修復</h3>
+		<h4>大里汽車凹痕修復</h4>
+		<h5>南區汽車凹痕修復</h5>
+		<h6>汽車凹痕修復推薦</h6>
+	</div>
+
+	<div class="abg01">
+		<dl class="abg01_1 content_flex">
+			<dt data-animate-in="left">
+				<h5><img src="https://pic03.eapple.com.tw/hardcorepdr/abo_01.png" alt=""><b>關於硬派</b></h5>
+				<p>
+					凹痕修復（Paintless Dent Repair，簡稱PDR）是一種修復車輛車身凹痕和撞擊痕跡的技術，無需使用噴漆或補土。它是一種成本效益高且高效的方法，可以在保留原廠漆面的同時恢復車輛的外觀。
+				</p>
+					硬派有訓練有素的技師及使用專業工具從內部輕輕的推擠凹痕，逐漸將其推回原位。這個過程要求技師從面板的後方進行修復，可以通過現有的開口或拆卸裝飾件來進行或是使用膠拉的方式施作。
+			</dt>
+			<dd><img src="https://pic03.eapple.com.tw/hardcorepdr/abo_02.png" alt=""></dd>
+		</dl>
+		<dl class="abg01_2 content_flex">
+			<dd><img src="https://pic03.eapple.com.tw/hardcorepdr/abo_03.png" alt=""></dd>
+			<dt data-animate-in="right">
+				<h6>「凹痕修復的優點包括快速的修復時間，<b>以及保持車輛原始漆面的特點。」</b></h6>
+				<p>
+					硬派致力於為您提供卓越的汽車凹痕修復服務，我們的專業領域涵蓋微鈑金修復、免烤漆技術以及原漆保留工藝。自豪地運用PDR（Paintless Dent Repair）工法，這種高度專業的修復技術能夠完美修復您愛車上的凹痕，同時保持原有車漆的完整性。
+				</p>
+					我們的目標是為您提供極大的方便，利用凹痕修復技術，我們承諾當天即可歸還您的愛車，無需將其長時間留在車廠，讓您的生活更加順暢。
+				<i></i>
+			</dt>
+		</dl>
+		<dl class="abg01_3 content_flex">
+			<dt data-animate-in="left">
+				<h5><img src="https://pic03.eapple.com.tw/hardcorepdr/abo_05.png" alt=""><b>常見問題</b></h5>
+				<ul class="accordion">
+					<li>
+						<a class="click_btn_a">
+							<section>
+								凹痕修復是什麼？ 
+							</section>
+							<div class="qa_a" style="display: block;">
+								<p>凹痕修復是一種修復方法，適用於車輛鈑金未損壞且原漆完好的情況。</p>
+								相對於傳統鈑金修復，它採用非破壞性的方式來復原凹陷，並保持原有車漆的完整性，凹痕修復是更快速、更經濟且更可靠的解決方案，為車主們提供了更好的選擇。 
+							</div>
+						</a>
+					</li>
+					<li>
+						<a class="click_btn_a">
+							<section>
+								為何不直接烤漆而使用凹痕修復？ 
+							</section>
+							<div class="qa_a">
+								<p>原漆的壽命通常比仿間烤漆的壽命更長。</p> 
+								因此，當車輛的鈑金未損壞且原漆完好無損時，採用凹痕修復方式能夠確保您的愛車保持其原有外觀，同時延長其使用壽命，這是凹痕修復的明顯優勢所在。
+							</div>
+						</a>
+					</li>
+					<li>
+						<a class="click_btn_a">
+							<section>
+								凹痕修復價格如何計算？ 
+							</section>
+							<div class="qa_a">
+								凹痕修復的價格取決於多個因素，包括凹痕大小、位置、深淺、鈑金材質及維修時間，在我們免費評估您的車輛後，我們會提供具體的價格估算，但最終的價格會根據您的車輛狀況和我們的評估服務而定。 
+							</div>
+						</a>
+					</li>
+				</ul>
+			</dt>
+			<dd>
+				<img src="https://pic03.eapple.com.tw/hardcorepdr/abo_06.png" alt="">
+				<i><img src="https://pic03.eapple.com.tw/hardcorepdr/abo_06_1.png" alt=""></i>
+			</dd>
+		</dl>
+	</div>
+	<div class="abg02">
+		<dl class="abg02_1 content_flex">
+			<dt data-animate-in="left">
+				我們深知每一位客戶的愛車都獨一無二，因此我們專注於提供量身訂製的修復方案，以確保每個凹痕都得到妥善處理，致力於為您的愛車帶來恢復原狀的效果。
+				<figure>
+					<a href="tel:0939530012"><img src="https://pic03.eapple.com.tw/hardcorepdr/abo_07.png" alt=""></a>
+					<a href="https://line.me/ti/p/~@545yosfc" target="_blank"><img src="https://pic03.eapple.com.tw/hardcorepdr/abo_08.png" alt=""></a>
+					<a href="https://www.facebook.com/hcpdr" target="_blank"><img src="https://pic03.eapple.com.tw/hardcorepdr/abo_09.png" alt=""></a>
+					<a href="https://maps.app.goo.gl/i49moiYUde8TnTQt8" target="_blank"><img src="https://pic03.eapple.com.tw/hardcorepdr/abo_10.png" alt=""></a>
+				</figure>
+			</dt>
+			<dd>
+				<img src="https://pic03.eapple.com.tw/hardcorepdr/abo_11.jpg" alt="">
+				<img src="https://pic03.eapple.com.tw/hardcorepdr/abo_12.jpg" alt="">
+			</dd>
+		</dl>
+	</div>
+
+</div><!--box_container-->
+
+<script>
+    (function($) {
+        $('.accordion > li:eq(0) a.click_btn_a').addClass('active').next().slideDown(); //預設第一個開啟
+        $('.accordion .click_btn_a').click(function(j) {
+            var dropDown = $(this).closest('li').find('.qa_a');
+    
+            $(this).closest('.accordion').find('.qa_a').not(dropDown).slideUp();
+    
+            if ($(this).hasClass('active')) {
+                $(this).removeClass('active');
+            } else {
+                $(this).closest('.accordion').find('.click_btn_a.active').removeClass('active');
+                $(this).addClass('active');
+            }
+    
+            dropDown.stop(false, true).slideToggle();
+    
+            j.preventDefault();
+        });
+    })(jQuery);
+</script>            <!-- 編輯器結束 -->
+		</div><!-- show_content -->
+	</div><!-- edit_part -->
+		
+    	
+	
+		    		
+	
+	    
+		
+    	
+	
+		    		
+	
+	    
+		
+    	
+	
+		    		
+	
+	    
+		
+    	
+	
+		    		
+	
+	    
+		
+    	
+	
+		    </div><!-- #content_main -->
+
+
+
+
+<a id="to_top" class="to_top" href=""><i class='top'></i>TOP</a>
+
+
+<!-- ******************************** -->
+<!-- 有購物車 加上下方 id#bottom_menu -->
+<ul id="bottom_menu" class="clearfix with_shopping_mode">
+	<li><a href="https://www.hardcore-pdr.com"><i class="fa-solid fa-house"></i><em>回首頁</em></a></li>
+	    				<li><a href="tel:0939-530-012"><i class="fa-solid fa-phone-volume"></i><em>電話</em></a></li>
+		            </ul>
+
+
+
+<!-- ******************************** -->
+<!-- 有購物車 額外加上with_shopping_mode -->
+<footer class="footer with_shopping_mode"><!-- 有購物車 加上with_shopping_mode -->
+	<div class="center">
+		<div class="footer_info">	
+						
+			<div class="footer_logo">
+				<a href="https://www.hardcore-pdr.com"><img src="https://www.gogo-engineering.com/store_image/hardcorepdr/L169925279171.png" alt="硬派汽車凹痕修復-汽車凹痕修復,大里汽車凹痕修復,台中汽車凹痕修復推薦" /></a>
+			</div><!-- footer_logo -->
+						<ul>
+            <li>
+				<p class="line"><a target="_blank" href="https://line.me/ti/p/@545yosfc">@545yosfc</a></p>				<p class="tel"><a>0939-530-012</a></p>                                				<p class="fax"><a>@545yosfc</a></p>								<p class="mail"><a>easonyang0930@gmail.com</a></p>				<p class="add"><a>台中市大里區東明路356號</a></p>				                
+                <div class="box_link">
+                				<a target="_blank" class="me_tp_call" href="tel:0939-530-012"><i class="fa-brands fa-whatsapp"></i></a>				<a target="_blank" class="me_tp_line" href="https://line.me/ti/p/@545yosfc"><i class="fa-brands fa-line"></i></a>				<a target="_blank" class="me_tp_mail" href="mailto:easonyang0930@gmail.com"><i class="far fa-envelope"></i></a>                            	</div>
+			</li>
+            <li>
+            	<div class="footer_menu">
+                <a href="https://www.hardcore-pdr.com/index.php">回首頁</a>
+				                <a href="https://www.hardcore-pdr.com">關於硬派</a>
+				                <a href="https://www.hardcore-pdr.com/paper/services_index.php?title_id=8419">服務內容</a>
+				                <a href="https://www.hardcore-pdr.com/products/index.php?title_id=8420">修復案例</a>
+				                <a href="https://www.hardcore-pdr.com/album/index.php?title_id=8421">修復部位</a>
+				                <a href="https://www.hardcore-pdr.com/news/index.php?title_id=8422">最新消息</a>
+				                <a href="https://www.hardcore-pdr.com/paper/contact_index.php?title_id=8423">聯絡我們</a>
+				                </div>
+            </li>
+            </ul>
+            	<style>
+    .double_key { text-align: center; margin-top: 20px;}
+    .double_key a { font-size: 15px; color: #aaa; display: inline-block;}
+    .double_key a:after { content: ' , '; font-size: 14px; color: #aaa;}
+    .double_key a:last-child:after {display:none;}
+    
+</style>
+<div class="double_key">
+    <a href="http://www.hardcore-pdr.com/">汽車凹痕修復</a>
+    <a href="http://www.hardcore-pdr.com/">台中汽車凹痕修復</a>
+    <a href="http://www.hardcore-pdr.com/">大里汽車凹痕修復</a>
+    <a href="http://www.hardcore-pdr.com/">南區汽車凹痕修復</a>
+    <a href="http://www.hardcore-pdr.com/">汽車凹痕修復推薦</a>
+</div><!--double_key-->
+<!-- // 2021.10.15 // -->
+
+<style type="text/css">
+    .fix_ri { width:50px; box-sizing: border-box; position: fixed; bottom:84px; right:23px; z-index: 100; text-align:center; }
+        
+    .fix_ri a { display:inline-block; margin-bottom:10px; background: #ffffffaa; border: 1px solid #0E74BD; border-radius: 100%; padding: 8px 10px; box-shadow: 0 0 5px #1A1F2288; transition: .5s ease-in-out;}
+    .fix_ri a:hover{ transform: scale(1.15); transition: .5s ease-in-out;}
+    .fix_ri a:nth-child(1) { background: #FF9326; border-color: #FF9326;}
+    .fix_ri a:nth-child(2) { background: #07C105; border-color: #07C105;}
+    .fix_ri a:nth-child(3) { background: #0556c1; border-color: #0556c1;}
+    .fix_ri a:nth-child(4) { background: #DC3C2E; border-color: #DC3C2E;}
+    .fix_ri img { opacity:1; width:100%; transition: .5s ease-in-out;}
+    .fix_ri a:hover img { opacity:1; transform: rotateY(360deg); -webkit-filter:grayscale(1) brightness(5); filter:grayscale(1) brightness(5); transition: .5s ease-in-out;}
+     
+    .fix_ri p { text-align:center; font-weight: 900;}
+</style>
+
+<div class="fix_ri">
+    <a href="tel:0939530012" target="_blank"><img src="https://pic03.eapple.com.tw/hardcorepdr/icon_tel.png" /></a><!--tel-->
+    <a href="https://line.me/ti/p/@545yosfc" target="_blank"><img src="https://pic03.eapple.com.tw/hardcorepdr/icon_line.png" /></a><!--line-->
+    <a href="https://www.facebook.com/hcpdr" target="_blank"><img src="https://pic03.eapple.com.tw/hardcorepdr/icon_fb.png" /></a><!--fb-->
+    <a href="https://maps.app.goo.gl/i49moiYUde8TnTQt8" target="_blank"><img src="https://pic03.eapple.com.tw/hardcorepdr/icon_map.png" /></a><!--map-->
+</div>
+
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+    $(document).ready(function (){
+        var options = {
+            facebook: "100083377688925", // Facebook page ID
+            call_to_action: "Message us", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->		</div><!-- footer_info -->
+        
+	</div><!-- center -->
+	<p class="copy">Designed by <a href="https://www.ykqk.com.tw" target="_blank">揚京快客</a> Copyright © 2026 <a href="https://www.gogo-engineering.com/web_login/login.php" target="_blank">..</a> <span class="total_view">累積人氣: 196662</span></p>
+	<p class="keywords">	
+	<span id="show_itemb1" style="display:none"></span>&nbsp;&nbsp;</p>
+</footer>
+			
+</div><!-- #page -->
+
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/menu_v3_2023.js"></script>
+
+	</body>
+</html>
