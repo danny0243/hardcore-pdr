@@ -892,9 +892,8 @@ a { transition: color .25s var(--ease); }
 
 /* ---- Footer: dark-on-dark with accent top border ---- */
 footer.footer { background: var(--brand-ink) !important; border-top: 4px solid var(--brand-accent); }
-.footer_menu a, .copy, .keywords { color: #ccc !important; }
+.footer_menu a, .keywords { color: #ccc !important; }
 .footer_menu a { font-family: var(--brand-font); text-transform: uppercase; letter-spacing: 1px; font-size: 13px; }
-.copy a { color: var(--brand-accent) !important; }
 .footer_info li p a, .footer_info li p { color: #eee !important; }
 .double_key a { color: #999 !important; }
 
