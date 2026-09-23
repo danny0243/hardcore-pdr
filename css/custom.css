@@ -61,22 +61,25 @@ div#page { background: #f1f1f1;}
 
 /* = = = banner = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
-.banner { display: none;}
-.banner h5 { position: relative; display: inline-block; letter-spacing: 5px; color: #222;}
+.banner {
+	display: block; text-align: center; padding: 80px 5% 70px; margin: 0;
+	background: linear-gradient(135deg, #1c1c1e 0%, #34343a 100%);
+}
+.banner h5 { position: relative; display: inline-block; letter-spacing: 6px; color: #fff; font-size: 40px; margin: 0; }
 .banner h5::before {
     content: "";
     position: absolute;
     width: 100%;
     height: 2px;
     left: 50%;
-    bottom: -10px;
+    bottom: -14px;
     transform: translateX(-50%);
-    background: linear-gradient(to right, #66666600 0%,#666666 50%,#66666600 100%);;
+    background: linear-gradient(to right, #ffffff00 0%,#ffffff99 50%,#ffffff00 100%);
 }
-.banner.banF { display: block; background: transparent;}/*購物車*/
-.banner.banblog {}
+.banner.banF, .banner.banblog { background: linear-gradient(135deg, #1c1c1e 0%, #34343a 100%); }/*購物車*/
+.banner:has(h5:empty) { display: none; }/*個別照片頁沒有標題時，直接隱藏整個banner*/
 
-@media screen and (max-width: 768px) { .banner h5 { font-size: 28px;}}
+@media screen and (max-width: 768px) { .banner { padding: 60px 5% 50px; } .banner h5 { font-size: 28px;}}
 @media screen and (max-width: 600px) { .banner h5 { font-size: 24px;}}
 
 /* = = = header = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
@@ -731,6 +734,11 @@ input[type="submit"]:hover, input[type="reset"]:hover { transform: translateY(-2
 /* Contact-page map + info panel depth */
 .contact_le_nomap iframe { border-radius: var(--radius-md); }
 .contact_content { border-radius: var(--radius-md); box-shadow: var(--shadow-card); border: none !important; }
+
+/* News article prev/next/back pill buttons */
+.blog_back a.article_btn_back, .blog_back a.article_btn_prev, .blog_back a.article_btn_next {
+	border-radius: var(--radius-pill);
+}
 
 /* Generic link/image hover smoothing site-wide */
 a { transition: color .25s var(--ease); }
