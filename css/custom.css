@@ -749,3 +749,177 @@ a { transition: color .25s var(--ease); }
 @media screen and (max-width: 768px) { }
 @media screen and (max-width: 600px) { }
 @media screen and (max-width: 425px) { }
+
+/* ============================================================
+   BRAND REDESIGN v2 — a distinct identity from the old template
+   Bold industrial/workshop look: dark surfaces, one loud accent
+   color, condensed display type. Same content, different feel.
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+:root {
+	--brand-accent: #FF5A1F;
+	--brand-accent-dark: #C93F0C;
+	--brand-ink: #131316;
+	--brand-ink-2: #1e1e23;
+	--brand-font: 'Oswald', 'Archivo Black', "微軟正黑體", "Microsoft JhengHei", sans-serif;
+}
+
+/* Logo: invert the dark artwork to white wherever it sits on a dark surface */
+.header_area .nav-brand img,
+.footer_logo img {
+	filter: brightness(0) invert(1);
+}
+
+/* ---- Header: dark surface, bold accent rule, condensed nav type ---- */
+.main_header_area {
+	background: var(--brand-ink) !important;
+	border-bottom: 3px solid var(--brand-accent);
+}
+.stellarnav > ul > li > a {
+	font-family: var(--brand-font) !important;
+	color: #f2f2f2 !important;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 15px;
+	position: relative;
+}
+.stellarnav > ul > li > a::after {
+	content: '';
+	position: absolute;
+	left: 10px; right: 10px; bottom: 4px;
+	height: 3px;
+	background: var(--brand-accent);
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform .3s var(--ease, ease);
+}
+.stellarnav > ul > li:hover > a::after { transform: scaleX(1); }
+.stellarnav ul ul {
+	background: var(--brand-ink-2) !important;
+	border-top: 3px solid var(--brand-accent);
+}
+.stellarnav li li a {
+	color: #ddd !important;
+	font-family: var(--brand-font);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+}
+.stellarnav li li a:hover, .stellarnav li li:hover > a {
+	background: var(--brand-accent-dark) !important;
+	color: #fff !important;
+}
+.lang_switch_en > a, .lang_switch_zh > a { color: var(--brand-accent) !important; }
+.me_tp_features .tp_links a { color: #f2f2f2; }
+.me_tp_call { background: var(--brand-accent) !important; }
+
+/* ---- Banner / hero: diagonal accent shape, condensed uppercase title ---- */
+.banner, .banner.banF, .banner.banblog {
+	background: var(--brand-ink) !important;
+	position: relative;
+	overflow: hidden;
+}
+.banner::before {
+	content: '';
+	position: absolute;
+	top: -30%; right: -8%;
+	width: 55%; height: 180%;
+	background: var(--brand-accent);
+	opacity: .16;
+	transform: rotate(14deg);
+	pointer-events: none;
+}
+.banner h5 {
+	font-family: var(--brand-font) !important;
+	text-transform: uppercase;
+	font-weight: 700 !important;
+	letter-spacing: 8px !important;
+}
+.banner h5::before { background: var(--brand-accent) !important; height: 4px !important; }
+
+/* ---- Repair-case / product cards: dark portfolio tiles + accent tag ---- */
+.products-list .item a {
+	background: var(--brand-ink-2) !important;
+	box-shadow: 0 6px 22px rgba(0,0,0,.4) !important;
+	position: relative;
+}
+.products-list .item a::before {
+	content: 'PDR';
+	position: absolute;
+	top: 12px; left: 12px;
+	background: var(--brand-accent);
+	color: #fff;
+	font-family: var(--brand-font);
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	padding: 4px 12px;
+	border-radius: var(--radius-pill, 999px);
+	z-index: 2;
+}
+.products-list .name {
+	color: #fff !important;
+	font-family: var(--brand-font);
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	font-size: 14px !important;
+}
+.products-list .more {
+	background: var(--brand-accent) !important;
+	color: #fff !important;
+	border: none !important;
+	font-family: var(--brand-font);
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-weight: 600;
+}
+.products-list .item a:hover .more { background: var(--brand-accent-dark) !important; }
+
+/* ---- Sidebar category list: accent active state ---- */
+.product-layer-two > li.active { background: var(--brand-accent) !important; }
+.product-layer-two li.active > a, .product-layer-two li:hover > a { color: #fff !important; }
+.product-layer-two li:hover > a:before, .product-layer-two li.active > a:before { background: var(--brand-accent) !important; }
+
+/* ---- Quick-contact buttons: condensed brand type ---- */
+.qc_btn { font-family: var(--brand-font); text-transform: uppercase; letter-spacing: 1px; }
+.qc_call { background: var(--brand-accent) !important; }
+.qc_btn:hover { background: var(--brand-accent-dark); }
+.qc_line:hover { background: #059904; }
+.qc_map:hover { background: #b8331f; }
+.qc_fb:hover { background: #145dbf; }
+
+/* ---- Footer: dark-on-dark with accent top border ---- */
+footer.footer { background: var(--brand-ink) !important; border-top: 4px solid var(--brand-accent); }
+.footer_menu a, .copy, .keywords { color: #ccc !important; }
+.footer_menu a { font-family: var(--brand-font); text-transform: uppercase; letter-spacing: 1px; font-size: 13px; }
+.copy a { color: var(--brand-accent) !important; }
+.footer_info li p a, .footer_info li p { color: #eee !important; }
+.double_key a { color: #999 !important; }
+
+/* ---- FAQ accordion (homepage): accent Q/A badges ---- */
+.box_container .accordion a.click_btn_a section:before { background: var(--brand-accent) !important; }
+.box_container .qa_a:after { border-color: var(--brand-accent) !important; color: var(--brand-accent) !important; }
+.box_container h5 b:after { background: var(--brand-accent) !important; }
+
+@media screen and (max-width: 600px) {
+	.banner h5 { letter-spacing: 4px !important; }
+}
+
+/* ---- Mobile drawer: match the dark identity (was a near-white panel,
+       which made the new light nav-link color unreadable) ---- */
+.stellarnav.mobile > ul,
+.stellarnav.mobile.left > ul,
+.stellarnav.mobile.right > ul {
+	background: var(--brand-ink) !important;
+}
+.stellarnav.mobile > ul > li { border-bottom-color: rgba(255,255,255,.12) !important; }
+.stellarnav.mobile a.dd-toggle .icon-plus:before,
+.stellarnav.mobile a.dd-toggle .icon-plus:after { border-color: #fff !important; }
+.stellarnav.mobile li.open { background: var(--brand-ink-2) !important; padding: 3px; }
+.stellarnav.mobile li.open li.open { background: #26262c !important; }
+.stellarnav.mobile .close-menu { background: var(--brand-ink) !important; }
+.stellarnav.mobile .close-menu span,
+.stellarnav.mobile .close-menu { color: #fff !important; }
+.stellarnav.mobile .icon-close:before, .stellarnav.mobile .icon-close:after { border-color: #fff !important; }
