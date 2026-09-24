@@ -692,6 +692,17 @@ ul.pic-list{ display: grid; grid-template-columns: repeat(3,1fr); gap: 5px; padd
 .qc_fb { background: #1877F2; }
 @media screen and (max-width:600px) { .qc_btn { flex: 1 1 100%; } }
 
+/* ---- News page FB block: dark themed to match the rest of the site,
+       and the contact column widened to a 2x2 grid on desktop so the
+       whole block isn't dwarfed by empty space next to Facebook's
+       hard-capped 500px widget ---- */
+.fb_news_box { background: var(--brand-ink) !important; }
+.fb_news_box > p { color: #aaa !important; }
+@media screen and (min-width: 701px) {
+	.fb_news_box .quick_contact { display: grid !important; grid-template-columns: 1fr 1fr; max-width: 480px !important; width: 480px; gap: 16px; }
+	.fb_news_box .quick_contact .qc_btn { padding: 24px 12px; }
+}
+
 /* = = = 2026 modernization pass: rounded cards, depth, smoother motion = = = */
 :root {
 	--radius-sm: 8px;
