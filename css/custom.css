@@ -950,7 +950,7 @@ footer.footer { background: var(--brand-ink) !important; border-top: 4px solid v
 	overflow: hidden;
 	border-radius: var(--radius-md, 14px);
 	padding: 16px;
-	background: linear-gradient(160deg, var(--brand-ink) 0%, var(--brand-ink-2) 100%);
+	background: #fff;
 	animation: sbg-glow 3s ease-in-out infinite;
 }
 .shine_wrap img { display: block; border-radius: calc(var(--radius-md, 14px) - 6px); transition: transform .6s var(--ease, ease); }
@@ -970,7 +970,7 @@ footer.footer { background: var(--brand-ink) !important; border-top: 4px solid v
 	position: absolute;
 	top: 0; left: -60%;
 	width: 35%; height: 100%;
-	background: linear-gradient(115deg, transparent 0%, rgba(255,255,255,.5) 50%, transparent 100%);
+	background: linear-gradient(115deg, transparent 0%, rgba(120,170,255,.45) 50%, transparent 100%);
 	transform: skewX(-20deg);
 	animation: sbg-shine 4.5s ease-in-out infinite;
 	pointer-events: none;
@@ -981,8 +981,8 @@ footer.footer { background: var(--brand-ink) !important; border-top: 4px solid v
 	35%, 100% { left: 130%; }
 }
 @keyframes sbg-glow {
-	0%, 100% { box-shadow: 0 0 20px rgba(255,90,31,.25); }
-	50% { box-shadow: 0 0 50px rgba(255,90,31,.6); }
+	0%, 100% { box-shadow: 0 6px 24px rgba(0,0,0,.10), 0 0 18px rgba(255,90,31,.22); }
+	50% { box-shadow: 0 6px 24px rgba(0,0,0,.10), 0 0 42px rgba(255,90,31,.55); }
 }
 
 /* ---- About + FAQ section: dark animated background matching the
