@@ -981,6 +981,41 @@ footer.footer { background: var(--brand-ink) !important; border-top: 4px solid v
 	50% { box-shadow: 0 0 50px rgba(255,90,31,.6); }
 }
 
+/* ---- About + FAQ section: dark animated background matching the
+       brand identity (was a static light-gray section left over from
+       the old template, out of step with the rest of the redesign) ---- */
+.box_container {
+	position: relative;
+	overflow: hidden;
+	background: var(--brand-ink) !important;
+	color: #b8b8bc !important;
+}
+.box_container .abg01,
+.box_container .abg02 {
+	background: none !important;
+	position: relative;
+	z-index: 1;
+}
+.box_container::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	z-index: 0;
+	background:
+		radial-gradient(circle at 15% 20%, rgba(255,90,31,.22) 0%, transparent 40%),
+		radial-gradient(circle at 85% 80%, rgba(255,90,31,.16) 0%, transparent 40%);
+	background-size: 160% 160%;
+	animation: bgDrift 16s ease-in-out infinite;
+	pointer-events: none;
+}
+@keyframes bgDrift {
+	0%, 100% { background-position: 0% 0%, 100% 100%; }
+	50% { background-position: 60% 40%, 40% 60%; }
+}
+.box_container h5 b { color: #fff !important; }
+.accordion a.click_btn_a section { color: #fff !important; }
+.accordion a.click_btn_a section:hover { color: var(--brand-accent) !important; }
+
 /* ---- FAQ section: the hologram photo (static, behind) was reading
        too bright/opaque next to the car wireframe (floats via the
        existing "updown" animation), washing out its thin light lines
