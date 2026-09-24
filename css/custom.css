@@ -240,7 +240,11 @@ div#page { background: #f1f1f1;}
     /*底部按鈕*/
     #to_top { bottom:60px;}
     #bottom_menu {display: block; }
-    .footer.with_shopping_mode { padding:30px 0 70px; }
+    /* .fix_ri (floating call/line/fb/map column) sits fixed at bottom:84px,
+       238px tall, above the #bottom_menu bar — the old 70px of bottom
+       padding only cleared bottom_menu, so footer content scrolled to the
+       end (e.g. .double_key) ended up hidden behind the icon column. */
+    .footer.with_shopping_mode { padding:30px 0 360px; }
 }
 
 @media screen and (max-width: 600px) { 
