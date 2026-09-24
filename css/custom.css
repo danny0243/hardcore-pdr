@@ -785,7 +785,7 @@ a { transition: color .25s var(--ease); }
 	font-size: 15px;
 	position: relative;
 }
-.stellarnav > ul > li > a::after {
+.stellarnav > ul > li > a::before {
 	content: '';
 	position: absolute;
 	left: 10px; right: 10px; bottom: 4px;
@@ -795,7 +795,7 @@ a { transition: color .25s var(--ease); }
 	transform-origin: left;
 	transition: transform .3s var(--ease, ease);
 }
-.stellarnav > ul > li:hover > a::after { transform: scaleX(1); }
+.stellarnav > ul > li:hover > a::before { transform: scaleX(1); }
 
 /* ---- Nav CTAs: Contact gets a solid button, phone gets a quieter
        outline button, so the bar ends on an obvious next action
@@ -937,6 +937,56 @@ footer.footer { background: var(--brand-ink) !important; border-top: 4px solid v
        white studio background just floated as a raw white block ---- */
 .abg01_1 dd { align-items: stretch; }
 .abg01_1 dd img { object-fit: cover; object-position: center; width: 100%; height: 100%; border-radius: var(--radius-md); }
+
+/* ---- Services page hero diagram: glossy shine sweep + pulsing glow
+       ring, since it's the page's visual centerpiece and had no motion ---- */
+.shine_wrap {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: var(--radius-md, 14px);
+	padding: 16px;
+	background: linear-gradient(160deg, var(--brand-ink) 0%, var(--brand-ink-2) 100%);
+	animation: sbg-glow 3s ease-in-out infinite;
+}
+.shine_wrap img { display: block; border-radius: calc(var(--radius-md, 14px) - 6px); transition: transform .6s var(--ease, ease); }
+.shine_wrap:hover img { transform: scale(1.05); }
+.shine_wrap::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	border-radius: inherit;
+	border: 2px solid var(--brand-accent);
+	opacity: .55;
+	pointer-events: none;
+	z-index: 2;
+}
+.shine_wrap::after {
+	content: '';
+	position: absolute;
+	top: 0; left: -60%;
+	width: 35%; height: 100%;
+	background: linear-gradient(115deg, transparent 0%, rgba(255,255,255,.5) 50%, transparent 100%);
+	transform: skewX(-20deg);
+	animation: sbg-shine 4.5s ease-in-out infinite;
+	pointer-events: none;
+	z-index: 2;
+}
+@keyframes sbg-shine {
+	0% { left: -60%; }
+	35%, 100% { left: 130%; }
+}
+@keyframes sbg-glow {
+	0%, 100% { box-shadow: 0 0 20px rgba(255,90,31,.25); }
+	50% { box-shadow: 0 0 50px rgba(255,90,31,.6); }
+}
+
+/* ---- FAQ section: the hologram photo (static, behind) was reading
+       too bright/opaque next to the car wireframe (floats via the
+       existing "updown" animation), washing out its thin light lines
+       where the two overlap ---- */
+.abg01_3 dd > img { opacity: .5; }
+.abg01_3 dd i img { filter: drop-shadow(0 0 10px var(--brand-accent)) brightness(1.3); }
 
 /* ---- Mobile drawer: match the dark identity (was a near-white panel,
        which made the new light nav-link color unreadable) ---- */
