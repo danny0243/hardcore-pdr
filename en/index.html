@@ -309,9 +309,8 @@ var swiper = new Swiper('.swiper-banner',{
 	100%{background-position: 0 303px;}
 }
 @keyframes updown{
-	50%{ transform:translate(-50%,20px);}
-	0%,
-	100%{ transform:translate(-50%,0);}
+	from{ transform:translate(-50%,0) rotate(0deg);}
+	to{ transform:translate(-50%,0) rotate(360deg);}
 }
 
 	.content_flex{
@@ -454,7 +453,7 @@ var swiper = new Swiper('.swiper-banner',{
 		position: absolute;
 		top: 10%;
 		left: 45%;
-		animation: updown 3s ease-out infinite;
+		animation: updown 14s linear infinite;
 	}
 	.accordion{
 		border-top: none;
