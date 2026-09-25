@@ -791,6 +791,9 @@ a { transition: color .25s var(--ease); }
 	background: var(--brand-ink) !important;
 	border-bottom: 3px solid var(--brand-accent);
 }
+/* mobile hamburger was still dark-on-dark from before the header went dark */
+.stellarnav .menu-toggle span.bars span { background: #fff !important; }
+.stellarnav .menu-toggle:after { color: #fff !important; }
 .stellarnav > ul > li > a {
 	font-family: var(--brand-font) !important;
 	color: #f2f2f2 !important;
