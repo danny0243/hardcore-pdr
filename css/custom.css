@@ -1066,3 +1066,62 @@ footer.footer { background: var(--brand-ink) !important; border-top: 4px solid v
 @media screen and (min-width: 769px) {
 	footer.footer { padding-bottom: 340px; }
 }
+
+/* ---- Footer contact column: same copy, but laid out as icon-led rows
+       in a real flex grid instead of the plain inline-block 49% split,
+       and the social buttons pulled out of their absolute-positioned
+       corner (a leftover reason they could drift into other content)
+       into a normal row under the address. ---- */
+.footer_info ul { display: flex; gap: 40px; }
+.footer_info li:nth-child(1),
+.footer_info li:nth-child(2) { width: auto; flex: 1 1 0; }
+.footer_info li:nth-child(2) { border-left-color: rgba(255,255,255,.15) !important; }
+
+/* menu.css already prefixes each row with a text label via :before
+   (電話：/Line ID：/信箱：/地址：…) - kept that content as-is and just
+   gave the label itself the brand color/weight instead of replacing it
+   with an icon. */
+.footer_info li:nth-child(1) p {
+	margin: 0 0 10px;
+	font-family: var(--brand-font);
+	letter-spacing: .3px;
+}
+.footer_info li:nth-child(1) p.fax { display: none !important; }
+.footer_info li:nth-child(1) p:before {
+	color: var(--brand-accent);
+	font-weight: 600;
+	margin-right: 4px;
+}
+
+/* the 3 buttons had drifted inconsistent: an unrelated header rule
+   (.me_tp_call, used by the top bar's call button) happened to also
+   match this row's first icon, so only the phone button was orange
+   and line/mail stayed plain gray-bordered ---- */
+.box_link {
+	position: static !important;
+	display: flex !important;
+	width: auto !important;
+	text-align: left !important;
+	gap: 10px;
+	margin: 16px 0 0;
+}
+.box_link a {
+	width: 40px !important;
+	height: 40px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50% !important;
+	background: transparent !important;
+	border: 1px solid var(--brand-accent) !important;
+	color: var(--brand-accent) !important;
+	font-size: 16px;
+}
+.box_link a:hover { background: var(--brand-accent) !important; color: #fff !important; }
+.box_link a i:before { color: inherit !important; }
+
+@media screen and (max-width: 768px) {
+	.footer_info ul { gap: 24px; }
+}
