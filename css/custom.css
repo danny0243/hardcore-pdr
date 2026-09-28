@@ -1057,3 +1057,12 @@ footer.footer { background: var(--brand-ink) !important; border-top: 4px solid v
 .stellarnav.mobile .close-menu span,
 .stellarnav.mobile .close-menu { color: #fff !important; }
 .stellarnav.mobile .icon-close:before, .stellarnav.mobile .icon-close:after { border-color: #fff !important; }
+
+/* ---- Footer: the fixed quick-contact column (.fix_ri) floats at
+       bottom:84px/238px tall over the viewport on every page. Only mobile
+       reserved clearance for it (with_shopping_mode's 360px bottom pad);
+       at desktop widths the footer's own .box_link icon row sat squarely
+       inside that same band and the two overlapped at the page bottom. ---- */
+@media screen and (min-width: 769px) {
+	footer.footer { padding-bottom: 340px; }
+}
